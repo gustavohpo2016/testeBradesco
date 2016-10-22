@@ -14,6 +14,7 @@
 		3A80DD9F1DBB891E00819114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A80DD9D1DBB891E00819114 /* LaunchScreen.storyboard */; };
 		3A80DDAA1DBB891F00819114 /* testeBradescoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80DDA91DBB891F00819114 /* testeBradescoTests.swift */; };
 		3A80DDB51DBB891F00819114 /* testeBradescoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A80DDB41DBB891F00819114 /* testeBradescoUITests.swift */; };
+		3AB07E2D1DBB953F004AA059 /* bradesco.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB07E2C1DBB953F004AA059 /* bradesco.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3A80DDB01DBB891F00819114 /* testeBradescoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testeBradescoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A80DDB41DBB891F00819114 /* testeBradescoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeBradescoUITests.swift; sourceTree = "<group>"; };
 		3A80DDB61DBB891F00819114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB07E2C1DBB953F004AA059 /* bradesco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bradesco.png; path = ../../../bradesco.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +99,12 @@
 		3A80DD931DBB891E00819114 /* testeBradesco */ = {
 			isa = PBXGroup;
 			children = (
+				3AB07E2B1DBB93AE004AA059 /* viewController */,
 				3A80DD941DBB891E00819114 /* AppDelegate.swift */,
 				3A80DD961DBB891E00819114 /* ViewController.swift */,
 				3A80DD981DBB891E00819114 /* Main.storyboard */,
 				3A80DD9B1DBB891E00819114 /* Assets.xcassets */,
+				3AB07E2C1DBB953F004AA059 /* bradesco.png */,
 				3A80DD9D1DBB891E00819114 /* LaunchScreen.storyboard */,
 				3A80DDA01DBB891F00819114 /* Info.plist */,
 			);
@@ -123,6 +127,13 @@
 				3A80DDB61DBB891F00819114 /* Info.plist */,
 			);
 			path = testeBradescoUITests;
+			sourceTree = "<group>";
+		};
+		3AB07E2B1DBB93AE004AA059 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				3A80DD9F1DBB891E00819114 /* LaunchScreen.storyboard in Resources */,
 				3A80DD9C1DBB891E00819114 /* Assets.xcassets in Resources */,
+				3AB07E2D1DBB953F004AA059 /* bradesco.png in Resources */,
 				3A80DD9A1DBB891E00819114 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
